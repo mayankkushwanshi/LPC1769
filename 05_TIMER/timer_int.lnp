@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "timer_interrupt.o" "system_lpc17xx.o" --strict --scatter "timer_int.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\timer_int.map" -o "timer_int.axf"
