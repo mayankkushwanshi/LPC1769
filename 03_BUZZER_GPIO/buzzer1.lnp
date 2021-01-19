@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "buzzer11.o" --strict --scatter "buzzer1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\buzzer1.map" -o "buzzer1.axf"

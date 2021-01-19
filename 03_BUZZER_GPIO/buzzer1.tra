@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'buzzer1.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"buzzer11.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "buzzer11.o" --strict --scatter "buzzer1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\buzzer1.map" -o "buzzer1.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'buzzer1.axf'
+### ADS-LD Command File: 'buzzer1.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'buzzer1.lnp', Handle=0x000004E0
+### Writing '.lnp' file
+### ADS-LD Command file 'buzzer1.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
