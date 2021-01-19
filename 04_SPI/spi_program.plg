@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Documents\spi_cortex\spi_program.uvproj
+Project File Date:  05/08/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling spi_int.c...
+spi_int.c(29): warning:  #61-D: integer operation result is out of range
+spi_int.c:      LPC_PINCON->PINSEL0|=(1<<31)/*SCK0*/;
+spi_int.c:                               ^
+spi_int.c(29): warning:  #68-D: integer conversion resulted in a change of sign
+spi_int.c:      LPC_PINCON->PINSEL0|=(1<<31)/*SCK0*/;
+spi_int.c:                           ^
+spi_int.c(33): error:  #20: identifier "S0SPCR" is undefined
+spi_int.c:      S0SPCR=0x00;
+spi_int.c:      ^
+spi_int.c(34): error:  #20: identifier "LPC_SPI0" is undefined
+spi_int.c:      LPC_SPI0->SPCR|=/*Master Mode*/(1<<5)/*LSB first*/|(1<<6)/*Interrupt enabled*/|(1<<7);
+spi_int.c:      ^
+spi_int.c(42): error:  #20: identifier "LPC_SPI0" is undefined
+spi_int.c:      LPC_SPI0->SPDR=data;//data
+spi_int.c:      ^
+spi_int.c(51): error:  #20: identifier "LPC_SPI0" is undefined
+spi_int.c:      LPC_SPI0->SPINT=(1<<0);
+spi_int.c:      ^
+spi_int.c(49): warning:  #550-D: variable "j" was set but never used
+spi_int.c:      static int j;
+spi_int.c:                 ^
+spi_int.c(71): error:  #20: identifier "LPC_SPI0" is undefined
+spi_int.c:      LPC_SPI0->SPDR=data;
+spi_int.c:      ^
+spi_int.c(77): warning:  #223-D: function "spi_init" declared implicitly
+spi_int.c:      spi_init();
+spi_int.c:      ^
+spi_int.c: spi_int.c: 4 warnings, 5 errors
+compiling system_LPC17xx.c...
+..\..\Desktop\LPC17xx.h(1032): warning:  #1-D: last line of file ends without a newline
+..\..\Desktop\LPC17xx.h:   #endif  // __LPC17xx_H__
+..\..\Desktop\LPC17xx.h:                           ^
+..\..\Desktop\LPC17xx.h: ..\..\Desktop\system_LPC17xx.c: 1 warning, 0 errors
+Target not created
+Build target 'Target 1'
+compiling spi_int.c...
+spi_int.c(29): warning:  #61-D: integer operation result is out of range
+spi_int.c:      LPC_PINCON->PINSEL0|=(1<<31)/*SCK0*/;
+spi_int.c:                               ^
+spi_int.c(29): warning:  #68-D: integer conversion resulted in a change of sign
+spi_int.c:      LPC_PINCON->PINSEL0|=(1<<31)/*SCK0*/;
+spi_int.c:                           ^
+spi_int.c(33): error:  #20: identifier "S0SPCR" is undefined
+spi_int.c:      S0SPCR=0x00;
+spi_int.c:      ^
+spi_int.c(34): error:  #20: identifier "LPC_SPI0" is undefined
+spi_int.c:      LPC_SPI0->SPCR|=/*Master Mode*/(1<<5)/*LSB first*/|(1<<6)/*Interrupt enabled*/|(1<<7);
+spi_int.c:      ^
+spi_int.c(42): error:  #20: identifier "LPC_SPI0" is undefined
+spi_int.c:      LPC_SPI0->SPDR=data;//data
+spi_int.c:      ^
+spi_int.c(51): error:  #20: identifier "LPC_SPI0" is undefined
+spi_int.c:      LPC_SPI0->SPINT=(1<<0);
+spi_int.c:      ^
+spi_int.c(49): warning:  #550-D: variable "j" was set but never used
+spi_int.c:      static int j;
+spi_int.c:                 ^
+spi_int.c(71): error:  #20: identifier "LPC_SPI0" is undefined
+spi_int.c:      LPC_SPI0->SPDR=data;
+spi_int.c:      ^
+spi_int.c: spi_int.c: 3 warnings, 5 errors
+Target not created
+Build target 'Target 1'
+compiling spi_int.c...
+spi_int.c(29): warning:  #61-D: integer operation result is out of range
+spi_int.c:      LPC_PINCON->PINSEL0|=(1<<31)/*SCK0*/;
+spi_int.c:                               ^
+spi_int.c(29): warning:  #68-D: integer conversion resulted in a change of sign
+spi_int.c:      LPC_PINCON->PINSEL0|=(1<<31)/*SCK0*/;
+spi_int.c:                           ^
+spi_int.c(33): error:  #20: identifier "LPC_SPI0" is undefined
+spi_int.c:      LPC_SPI0->SPCR=0x00;
+spi_int.c:      ^
+spi_int.c(42): error:  #20: identifier "LPC_SPI0" is undefined
+spi_int.c:      LPC_SPI0->SPDR=data;//data
+spi_int.c:      ^
+spi_int.c(51): error:  #20: identifier "LPC_SPI0" is undefined
+spi_int.c:      LPC_SPI0->SPINT=(1<<0);
+spi_int.c:      ^
+spi_int.c(49): warning:  #550-D: variable "j" was set but never used
+spi_int.c:      static int j;
+spi_int.c:                 ^
+spi_int.c(71): error:  #20: identifier "LPC_SPI0" is undefined
+spi_int.c:      LPC_SPI0->SPDR=data;
+spi_int.c:      ^
+spi_int.c: spi_int.c: 3 warnings, 4 errors
+Target not created
+Build target 'Target 1'
+compiling spi_int.c...
+spi_int.c(29): warning:  #61-D: integer operation result is out of range
+spi_int.c:      LPC_PINCON->PINSEL0|=(1<<31)/*SCK0*/;
+spi_int.c:                               ^
+spi_int.c(29): warning:  #68-D: integer conversion resulted in a change of sign
+spi_int.c:      LPC_PINCON->PINSEL0|=(1<<31)/*SCK0*/;
+spi_int.c:                           ^
+spi_int.c(49): warning:  #550-D: variable "j" was set but never used
+spi_int.c:      static int j;
+spi_int.c:                 ^
+spi_int.c: spi_int.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=768 RO-data=404 RW-data=8 ZI-data=608  
+"spi_program.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=768 RO-data=404 RW-data=8 ZI-data=608  
+FromELF: creating hex file...
+"spi_program.axf" - 0 Error(s), 0 Warning(s).
