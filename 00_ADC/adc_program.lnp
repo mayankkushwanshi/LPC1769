@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "adc_int.o" "system_lpc17xx.o" --strict --scatter "adc_program.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\adc_program.map" -o "adc_program.axf"

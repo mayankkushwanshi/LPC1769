@@ -1,0 +1,110 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Documents\adc_cortex\adc_program.uvproj
+Project File Date:  05/06/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling adc_int.c...
+adc_int.c(35): warning:  #61-D: integer operation result is out of range
+adc_int.c:      if(data&(1<<31))// Taking data only if conversion is done which is tested by bit 31 which is DONE bit
+adc_int.c:                  ^
+adc_int.c(35): warning:  #68-D: integer conversion resulted in a change of sign
+adc_int.c:      if(data&(1<<31))// Taking data only if conversion is done which is tested by bit 31 which is DONE bit
+adc_int.c:              ^
+adc_int.c(40): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+adc_int.c:              sprintf(ch, "%d", data);//formatting data
+adc_int.c:                      ^
+adc_int.c: adc_int.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=1824 RO-data=236 RW-data=4 ZI-data=612  
+FromELF: creating hex file...
+"adc_program.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1824 RO-data=236 RW-data=4 ZI-data=612  
+FromELF: creating hex file...
+"adc_program.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling adc_int.c...
+adc_int.c(36): warning:  #61-D: integer operation result is out of range
+adc_int.c:      if(data&(1<<31))// Taking data only if conversion is done which is tested by bit 31 which is DONE bit
+adc_int.c:                  ^
+adc_int.c(36): warning:  #68-D: integer conversion resulted in a change of sign
+adc_int.c:      if(data&(1<<31))// Taking data only if conversion is done which is tested by bit 31 which is DONE bit
+adc_int.c:              ^
+adc_int.c(41): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+adc_int.c:              sprintf(ch, "%d", data);//formatting data
+adc_int.c:                      ^
+adc_int.c: adc_int.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=1840 RO-data=236 RW-data=4 ZI-data=612  
+FromELF: creating hex file...
+"adc_program.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling adc_int.c...
+adc_int.c(36): warning:  #61-D: integer operation result is out of range
+adc_int.c:      if(data&(1<<31))// Taking data only if conversion is done which is tested by bit 31 which is DONE bit
+adc_int.c:                  ^
+adc_int.c(36): warning:  #68-D: integer conversion resulted in a change of sign
+adc_int.c:      if(data&(1<<31))// Taking data only if conversion is done which is tested by bit 31 which is DONE bit
+adc_int.c:              ^
+adc_int.c(41): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+adc_int.c:              sprintf(ch, "%d", data);//formatting data
+adc_int.c:                      ^
+adc_int.c: adc_int.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=1852 RO-data=236 RW-data=4 ZI-data=612  
+FromELF: creating hex file...
+"adc_program.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling adc_int.c...
+adc_int.c(36): warning:  #61-D: integer operation result is out of range
+adc_int.c:      if(data&(1<<31))// Taking data only if conversion is done which is tested by bit 31 which is DONE bit
+adc_int.c:                  ^
+adc_int.c(36): warning:  #68-D: integer conversion resulted in a change of sign
+adc_int.c:      if(data&(1<<31))// Taking data only if conversion is done which is tested by bit 31 which is DONE bit
+adc_int.c:              ^
+adc_int.c(41): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+adc_int.c:              sprintf(ch, "%d", data);//formatting data
+adc_int.c:                      ^
+adc_int.c: adc_int.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=1872 RO-data=236 RW-data=4 ZI-data=612  
+FromELF: creating hex file...
+"adc_program.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling adc_int.c...
+adc_int.c(36): warning:  #61-D: integer operation result is out of range
+adc_int.c:      if(data&(1<<31))// Taking data only if conversion is done which is tested by bit 31 which is DONE bit
+adc_int.c:                  ^
+adc_int.c(36): warning:  #68-D: integer conversion resulted in a change of sign
+adc_int.c:      if(data&(1<<31))// Taking data only if conversion is done which is tested by bit 31 which is DONE bit
+adc_int.c:              ^
+adc_int.c(41): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+adc_int.c:              sprintf(ch, "%d", data);//formatting data
+adc_int.c:                      ^
+adc_int.c: adc_int.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=1928 RO-data=236 RW-data=4 ZI-data=612  
+FromELF: creating hex file...
+"adc_program.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling adc_int.c...
+adc_int.c(36): warning:  #61-D: integer operation result is out of range
+adc_int.c:      if(data&(1<<31))// Taking data only if conversion is done which is tested by bit 31 which is DONE bit
+adc_int.c:                  ^
+adc_int.c(36): warning:  #68-D: integer conversion resulted in a change of sign
+adc_int.c:      if(data&(1<<31))// Taking data only if conversion is done which is tested by bit 31 which is DONE bit
+adc_int.c:              ^
+adc_int.c(41): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+adc_int.c:              sprintf(ch, "%d", data);//formatting data
+adc_int.c:                      ^
+adc_int.c: adc_int.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=1928 RO-data=236 RW-data=4 ZI-data=612  
+FromELF: creating hex file...
+"adc_program.axf" - 0 Error(s), 3 Warning(s).
