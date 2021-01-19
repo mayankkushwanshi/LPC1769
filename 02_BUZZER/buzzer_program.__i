@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil_v5\ARM\INC" -I "C:\Keil_v5\ARM\INC\NXP\LPC17xx" -o "buzzer_program.o" --omf_browse "buzzer_program.crf" --depend "buzzer_program.d" "buzzer_program.c"
